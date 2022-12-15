@@ -1,28 +1,46 @@
-# Create T3 App
+![logo](public/icons/android-icon-192x192.png)
 
-This is a [T3 Stack](https://create.t3.gg/) project bootstrapped with `create-t3-app`.
+# Dev Toolbox
 
-## What's next? How do I make an app with this?
+[![Project Version](https://img.shields.io/github/package-json/v/Jcanotorr06/devtoolbox?style=flat-square)](https://github.com/Jcanotorr06/devtoolbox/releases)
+[![Project License](https://img.shields.io/github/license/Jcanotorr06/devtoolbox?style=flat-square)](https://github.com/Jcanotorr06/devtoolbox/blob/main/LICENSE)
 
-We try to keep this project as simple as possible, so you can start with just the scaffolding we set up for you, and add additional things later when they become necessary.
+Dev Toolbox is a free and open source collection of tools for everyday use to speed up your daily workflow as a developer. Within this app, you can find temporary email, generators (password, lorem ipsum, hash), converters (url parser, yaml/json/csv, number base, cURL), encoders/decoders (Base64, Hex, URL), beautifiers/minifiers (JSON, HTML, CSS, JS), and more.
 
-If you are not familiar with the different technologies used in this project, please refer to the respective docs. If you still are in the wind, please join our [Discord](https://t3.gg/discord) and ask for help.
+## Run Locally
 
-- [Next.js](https://nextjs.org)
-- [NextAuth.js](https://next-auth.js.org)
-- [Prisma](https://prisma.io)
-- [Tailwind CSS](https://tailwindcss.com)
-- [tRPC](https://trpc.io)
+First, install dependencies: 
 
-## Learn More
+```bash
+yarn install
+```
 
-To learn more about the [T3 Stack](https://create.t3.gg/), take a look at the following resources:
+Next, run: 
 
-- [Documentation](https://create.t3.gg/)
-- [Learn the T3 Stack](https://create.t3.gg/en/faq#what-learning-resources-are-currently-available) — Check out these awesome tutorials
+```bash
+yarn dev
+```
 
-You can check out the [create-t3-app GitHub repository](https://github.com/t3-oss/create-t3-app) — your feedback and contributions are welcome!
+## Tech Stack
 
-## How do I deploy this?
+This is a T3 Stack project bootstraped with `create-t3-app`.
+This project's stack is mainly comprised of:
 
-Follow our deployment guides for [Vercel](https://create.t3.gg/en/deployment/vercel) and [Docker](https://create.t3.gg/en/deployment/docker) for more information.
+- [Next.js](https://nextjs.org/)
+- [Typescript](https://www.typescriptlang.org/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [DaisyUI](https://daisyui.com/)
+- [Zustand](https://zustand-demo.pmnd.rs/)
+- [Framer Motion](https://www.framer.com/motion/)
+- [Tanstack Query](https://tanstack.com/query/v4/)
+
+## Contributors
+
+We 💖 contributors! Feel free to contribute to this project but **please read the [Contributing Guidelines](CONTRIBUTING.md) before opening an issue or PR** so you understand the branching strategy and local development environment.
+
+<a href="https://github.com/jcanotorr06/devtoolbox/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=jcanotorr06/devtoolbox" />
+</a>
+
+Made with [contrib.rocks](https://contrib.rocks).
+
