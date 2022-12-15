@@ -5,6 +5,8 @@
  */
 !process.env.SKIP_ENV_VALIDATION && (await import("./src/env/server.mjs"));
 
+import withPWA from "next-pwa";
+
 /** @type {import("next").NextConfig} */
 const config = {
   reactStrictMode: true,
@@ -14,4 +16,19 @@ const config = {
     defaultLocale: "en",
   },
 };
-export default config;
+
+export default withPWA({
+  dest: "public",
+  disable: process.env.NODE_ENV === "development",
+  register: true,
+})({
+  reactStrictMode: true,
+  swcMinify: true,
+  i18n: {
+    locales: ["en"],
+    defaultLocale: "en",
+  },
+})
+// eslint-disable-next-line @typescript-eslint/ban-ts-comment
+// @ts-ignore
+// export default config;
