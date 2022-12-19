@@ -54,7 +54,7 @@ const Sidebar:FC = () => {
             </label>
             {routes.map((route, index) => (
                 <Link href={route.path} key={index} className="w-full">
-                    <div className={`btn btn-primary ${router.asPath !== route.path && "btn-outline"} rounded w-full`}>
+                    <div className={`btn btn-primary ${router.pathname !== route.path && "btn-outline"} rounded w-full`}>
                         {route.icon}
                         &nbsp;
                         <AnimatePresence>
