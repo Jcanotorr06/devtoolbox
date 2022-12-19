@@ -119,7 +119,7 @@ const MyApp: AppType = ({ Component, pageProps }) => {
         openGraph={{
           type: "website",
           locale: "en_IE",
-          url: "https://devtoolbox.vercel.app/",
+          url: "https://toolbox.josephcano.com/",
           site_name: "Dev Toolbox",
         }}
         twitter={{

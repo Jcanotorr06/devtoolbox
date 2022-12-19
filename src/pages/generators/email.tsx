@@ -1,7 +1,7 @@
 import { type NextPage } from "next";
 import { NextSeo } from "next-seo";
 import { Fragment } from "react";
-import { MessageDetails, Address, Inbox } from "../components/Email";
+import { MessageDetails, Address, Inbox } from "../../components/Email";
 
 const Email:NextPage = () => {
 

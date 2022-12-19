@@ -28,7 +28,7 @@ const Sidebar:FC = () => {
             label: "Home"
         },
         {
-            path: "/email",
+            path: "/generators/email",
             icon: <HiEnvelope />,
             label: "Email"
         }
