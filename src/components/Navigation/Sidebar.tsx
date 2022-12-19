@@ -2,10 +2,11 @@ import { type FC , useEffect } from "react"
 import { AnimatePresence, motion } from "framer-motion"
 import { useSidebarStore } from "../../state"
 import { HiMoon, HiSun, HiHome, HiEnvelope, HiMagnifyingGlass, HiChevronLeft, HiChevronRight } from 'react-icons/hi2';
+import { BsFileTextFill } from "react-icons/bs"
 import { themeChange } from "theme-change";
 import Link from "next/link";
 import { useRouter } from "next/router";
-import useModalStore from './../../state/modalStore';
+import useModalStore from "./../../state/modalStore";
 
 const Sidebar:FC = () => {
 
@@ -31,6 +32,11 @@ const Sidebar:FC = () => {
             path: "/generators/email",
             icon: <HiEnvelope />,
             label: "Email"
+        },
+        {
+            path: "/generators/random-string",
+            icon: <BsFileTextFill />,
+            label: "Random String"
         }
     ]
 
@@ -63,7 +69,7 @@ const Sidebar:FC = () => {
                                     initial={{ opacity: 1, scale: 1, position: "relative" }}
                                     animate={{ opacity: 1, scale: 1, position: "relative" }}
                                     exit={{ opacity: 0, scale: 0, position: "absolute" }}
-                                    className="text-base"
+                                    className="text-base capitalize"
                                     transition={{ duration: 0.1 }}
                                 >
                                     {route.label}
