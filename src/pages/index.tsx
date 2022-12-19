@@ -1,34 +1,12 @@
 import { type NextPage } from "next";
-import Link from "next/link";
 import { useRouter } from "next/router";
 import { ToolCard } from "../components/Landing";
+import tabs from "../utils/tabs";
+import tools from "../utils/tools";
 
 const Home: NextPage = () => {
 
   const router = useRouter()
-
-  const tabs = [
-    { name: "All", query: "" },
-    { name: "Formatters", query: "formatters" },
-    { name: "Converters", query: "converters" },
-    { name: "Generators", query: "generators" },
-    { name: "Validators", query: "validators" },
-    { name: "Encoders", query: "encoders" },
-    { name: "Decoders", query: "decoders" },
-    { name: "Minifiers", query: "minifiers" },
-    { name: "Beautifiers", query: "beautifiers" },
-    { name: "Parsers", query: "parsers" },
-    { name: "Others", query: "others" },
-  ]
-
-  const tools = [
-    {
-      name: "Temporary Email Generator",
-      description: "Generate a disposable temporary email address.",
-      category: "generators",
-      link: "/email"
-    },
-  ]
 
   const tabQuery = router.query.tab || ""
 
