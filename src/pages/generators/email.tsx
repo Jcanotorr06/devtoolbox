@@ -8,8 +8,8 @@ const Email:NextPage = () => {
     return (
         <Fragment>
             <NextSeo
-                title="Temporary Email | Dev Toolbox"
-                description="Disposable Temporary Email Address"
+                title="Temporary Email Generator | Dev Toolbox"
+                description="Genereate a disposable temporary email address."
             />
             <main className="grid gap-4 grid-flow-row grid-cols-1 md:grid-cols-4 lg:grid-cols-6 xl:grid-cols-12 grid-rows-6 w-full">
                 <section className="col-span-5 row-span-1 flex flex-col gap-4 rounded-lg bg-base-100 p-4 shadow-md">
