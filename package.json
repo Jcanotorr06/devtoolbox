@@ -31,7 +31,7 @@
   "private": false,
   "scripts": {
     "build": "next build",
-    "postbuild": "next-sitemap",
+    "postbuild": "next-sitemap --config next-sitemap.config.cjs",
     "dev": "next dev",
     "lint": "next lint",
     "start": "next start"
