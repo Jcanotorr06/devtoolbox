@@ -1,7 +1,7 @@
-import type { FC } from 'react'
-import type { Mailbox } from '../../types/mailbox'
+import type { FC } from "react"
+import type { Mailbox } from "../../types/mailbox"
 import * as dayjs from "dayjs"
-import useEmailStore from '../../state/emailStore'
+import useEmailStore from "../../state/emailStore"
 
 type Props = {
     email: Mailbox

@@ -1,6 +1,6 @@
-import { AnimatePresence, motion } from 'framer-motion';
-import { FaTimes } from 'react-icons/fa';
-import useAlertStore from './../../state/alertStore';
+import { AnimatePresence, motion } from "framer-motion";
+import { FaTimes } from "react-icons/fa";
+import useAlertStore from "./../../state/alertStore";
 
 const AlertManager = () => {
     const { isAlertOpen, closeAlert, alertText, alertType } = useAlertStore()

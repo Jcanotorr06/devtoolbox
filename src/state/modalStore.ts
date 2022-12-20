@@ -1,6 +1,6 @@
-import create from 'zustand';
-import { devtools } from 'zustand/middleware';
-import type { ModalTypes } from '../components/Modals/ModalManager';
+import create from "zustand";
+import { devtools } from "zustand/middleware";
+import type { ModalTypes } from "../components/Modals/ModalManager";
 
 type ModalStore = {
     isModalOpen: boolean;
@@ -13,9 +13,9 @@ const useModalStore = create<ModalStore>()(
     devtools(
         (set) => ({
             isModalOpen: false,
-            modalId: '',
+            modalId: "",
             openModal: (id: ModalTypes) => set(() => ({ isModalOpen: true, modalId: id })),
-            closeModal: () => set(() => ({ isModalOpen: false, modalId: '' })),
+            closeModal: () => set(() => ({ isModalOpen: false, modalId: "" })),
         })
     )
 )

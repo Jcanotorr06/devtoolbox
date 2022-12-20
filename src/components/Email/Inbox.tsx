@@ -1,11 +1,9 @@
-import { type FC, Fragment } from 'react'
-import { useQuery } from '@tanstack/react-query'
-import { getEmailAddress, getMailbox } from '../../queries/email'
-import Loading from '../utils/Loading'
-import { HiEnvelopeOpen } from 'react-icons/hi2'
-import * as dayjs from "dayjs"
-import Message from './Message'
-import useEmailStore from '../../state/emailStore'
+import { type FC, Fragment } from "react"
+import { useQuery } from "@tanstack/react-query"
+import { getEmailAddress, getMailbox } from "../../queries/email"
+import Loading from "../utils/Loading"
+import { HiEnvelopeOpen } from "react-icons/hi2"
+import Message from "./Message"
 
 const Inbox:FC = () => {
 

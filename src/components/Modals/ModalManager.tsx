@@ -1,10 +1,10 @@
-import { AnimatePresence, motion } from 'framer-motion'
-import React, { lazy } from 'react'
+import { AnimatePresence, motion } from "framer-motion"
+import React, { lazy } from "react"
 import { FaTimes } from "react-icons/fa"
-import useModalStore from '../../state/modalStore'
-import LazyLoading from '../utils/LazyLoading'
+import useModalStore from "../../state/modalStore"
+import LazyLoading from "../utils/LazyLoading"
 
-const SearchModal = lazy(() => import('./SearchModal'))
+const SearchModal = lazy(() => import("./SearchModal"))
 
 export type ModalTypes = "search" | "alert" | ""
 

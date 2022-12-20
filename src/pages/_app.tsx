@@ -1,11 +1,9 @@
 import { DefaultSeo } from "next-seo";
 import { type AppType } from "next/dist/shared/lib/utils";
-import { Fragment, useEffect } from "react";
 import BaseLayout from "../components/Layouts/BaseLayout";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 
 import "../styles/globals.css";
-import { themeChange } from "theme-change";
 
 const queryClient = new QueryClient({
 /*   defaultOptions: {

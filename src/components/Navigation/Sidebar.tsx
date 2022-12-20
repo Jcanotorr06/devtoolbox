@@ -1,7 +1,7 @@
 import { type FC , useEffect } from "react"
 import { AnimatePresence, motion } from "framer-motion"
 import { useSidebarStore } from "../../state"
-import { HiMoon, HiSun, HiHome, HiEnvelope, HiMagnifyingGlass, HiChevronLeft, HiChevronRight } from 'react-icons/hi2';
+import { HiMoon, HiSun, HiHome, HiEnvelope, HiMagnifyingGlass, HiChevronLeft, HiChevronRight } from "react-icons/hi2";
 import { BsFileTextFill } from "react-icons/bs"
 import { themeChange } from "theme-change";
 import Link from "next/link";

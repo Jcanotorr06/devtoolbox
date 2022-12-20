@@ -1,12 +1,12 @@
-import { useQuery } from '@tanstack/react-query'
-import { Interweave } from 'interweave'
-import { type FC } from 'react'
-import { FaFile, FaFileDownload, FaTimes } from 'react-icons/fa'
+import { useQuery } from "@tanstack/react-query"
+import { Interweave } from "interweave"
+import { type FC } from "react"
+import { FaFileDownload, FaTimes } from "react-icons/fa"
 import * as dayjs from "dayjs"
-import { getEmailAddress, getMailboxMessage } from '../../queries/email'
-import useEmailStore from '../../state/emailStore'
-import Loading from '../utils/Loading'
-import type { Mailbox, MailboxMessageAttachment } from '../../types/mailbox'
+import { getEmailAddress, getMailboxMessage } from "../../queries/email"
+import useEmailStore from "../../state/emailStore"
+import Loading from "../utils/Loading"
+import type { Mailbox, MailboxMessageAttachment } from "../../types/mailbox"
 
 const MessageDetails:FC = () => {
   const { email, closeEmail } = useEmailStore()
