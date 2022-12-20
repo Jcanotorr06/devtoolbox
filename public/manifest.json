@@ -1,6 +1,6 @@
 {
-    "name": "PWA App",
-    "short_name": "App",
+    "name": "Dev Toolbox",
+    "short_name": "Dev Toolbox",
     "theme_color": "#FFFFFF",
     "background_color": "#FFFFFF",
     "start_url": "/",
