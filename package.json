@@ -43,6 +43,7 @@
     "dayjs": "^1.11.7",
     "framer-motion": "^7.6.19",
     "interweave": "^13.0.0",
+    "jose": "^4.11.1",
     "next": "13.0.2",
     "next-pwa": "^5.6.0",
     "next-seo": "^5.15.0",
