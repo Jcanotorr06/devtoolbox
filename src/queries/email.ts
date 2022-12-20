@@ -1,6 +1,5 @@
 import { type QueryFunction } from "@tanstack/react-query";
 import type { Mailbox, MailboxMessage } from "../types/mailbox";
-import { getDecodedLocalStorage, setEncodedLocalStorage } from './../utils/storage';
 
 const url = "https://www.1secmail.com/api/v1/"
 

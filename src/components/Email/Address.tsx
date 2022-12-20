@@ -1,8 +1,8 @@
-import { type FC, Fragment } from 'react'
-import { useQuery } from '@tanstack/react-query'
+import { type FC, Fragment } from "react"
+import { useQuery } from "@tanstack/react-query"
 import { FaCopy } from "react-icons/fa"
-import { getEmailAddress } from '../../queries/email'
-import useAlertStore from '../../state/alertStore'
+import { getEmailAddress } from "../../queries/email"
+import useAlertStore from "../../state/alertStore"
 
 const Address:FC = () => {
 

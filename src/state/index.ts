@@ -1,1 +1,1 @@
-export { default as useSidebarStore } from './sidebarStore';
+export { default as useSidebarStore } from "./sidebarStore";

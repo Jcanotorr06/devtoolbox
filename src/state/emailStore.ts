@@ -1,6 +1,6 @@
-import create from 'zustand';
-import { devtools } from 'zustand/middleware';
-import type { Mailbox } from '../types/mailbox';
+import create from "zustand";
+import { devtools } from "zustand/middleware";
+import type { Mailbox } from "../types/mailbox";
 
 type EmailStore = {
     email: Mailbox | null;

@@ -1,5 +1,5 @@
-import { type FC } from 'react'
-import { Oval } from 'react-loader-spinner'
+import { type FC } from "react"
+import { Oval } from "react-loader-spinner"
 
 const Loading:FC = () => {
   return (

@@ -1,5 +1,5 @@
-import create from 'zustand';
-import { devtools } from 'zustand/middleware';
+import create from "zustand";
+import { devtools } from "zustand/middleware";
 
 type Alert = "info" | "success" | "warning" | "error"
 
@@ -15,10 +15,10 @@ const useAlertStore = create<AlertStore>()(
     devtools(
         (set) => ({
             isAlertOpen: false,
-            alertText: '',
+            alertText: "",
             alertType: "info",
             openAlert: (text: string, type: Alert) => set(() => ({ isAlertOpen: true, alertText: text, alertType: type })),
-            closeAlert: () => set(() => ({ isAlertOpen: false, alertText: '', alertType: "info" })),
+            closeAlert: () => set(() => ({ isAlertOpen: false, alertText: "", alertType: "info" })),
         })
     )
 )

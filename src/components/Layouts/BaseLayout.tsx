@@ -26,7 +26,7 @@ const BaseLayout:FC<Props> = ({children}:Props) => {
           }
           variants={variants}
           initial={false} 
-          className={`flex flex-grow bg-base-200 z-10 h-full p-4`}
+          className={"flex flex-grow bg-base-200 z-10 h-full p-4"}
         >
             {children}
         </motion.section>
