@@ -13,6 +13,13 @@ const tools = [
         link: "random-string",
         id: "random-string",
     },
+    {
+      name: "CSS Unit Converter",
+      description: "Converts units between pixels and REM.",
+      category: "converters",
+      link: "css-unit-converter",
+      id: "css-unit-converter"
+    }
   ]
 
 export default tools
