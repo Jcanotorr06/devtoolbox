@@ -3,6 +3,7 @@ import { AnimatePresence, motion } from "framer-motion"
 import { useSidebarStore } from "../../state"
 import { HiMoon, HiSun, HiHome, HiEnvelope, HiMagnifyingGlass, HiChevronLeft, HiChevronRight } from 'react-icons/hi2';
 import { BsFileTextFill, BsMarkdownFill } from "react-icons/bs"
+import { FaExchangeAlt } from "react-icons/fa";
 import { themeChange } from "theme-change";
 import Link from "next/link";
 import { useRouter } from "next/router";
@@ -39,10 +40,15 @@ const Sidebar:FC = () => {
             label: "Random String"
         },
         {
+            path: "/converters/css-unit-converter",
+            icon: <FaExchangeAlt />,
+            label: "CSS Unit Converter"
+        },
+        {
             path: "/others/markdown-editor",
             icon: <BsMarkdownFill />,
             label: "Markdown Editor"
-        }
+        },
     ]
 
     return (
