@@ -1,0 +1,99 @@
+.markdown-container{
+    @apply h-full overflow-x-hidden flex flex-col gap-2;
+}
+
+.markdown-container h1{
+    @apply text-4xl font-bold;
+}
+
+.markdown-container h2{
+    @apply text-3xl font-bold;
+}
+
+.markdown-container h3{
+    @apply text-2xl font-bold;
+}
+
+.markdown-container h4{
+    @apply text-xl font-bold;
+}
+
+.markdown-container h5{
+    @apply text-lg font-bold;
+}
+
+.markdown-container h6{
+    @apply text-base font-bold;
+}
+
+.markdown-container p{
+    @apply text-base;
+}
+
+.markdown-container a{
+    @apply text-blue-500;
+}
+
+.markdown-container ul{
+    @apply list-disc indent-2;
+}
+
+.markdown-container ol{
+    @apply list-decimal indent-2;
+}
+
+.markdown-container li{
+    @apply text-base list-inside;
+}
+
+.markdown-container blockquote{
+    @apply text-base italic;
+}
+
+.markdown-container pre{
+    @apply text-base bg-gray-200 p-1 rounded-sm;
+}
+
+.markdown-container code{
+    @apply text-base bg-gray-200 p-1 rounded-sm;
+}
+
+.markdown-container table{
+    @apply text-base;
+}
+
+.markdown-container table th{
+    @apply text-base text-center;
+    text-align: center !important;
+}
+
+.markdown-container table td{
+    @apply text-base;
+    text-align: left !important;
+}
+
+.markdown-container table tr{
+    @apply text-base text-left;
+}
+
+.markdown-container table tr:nth-child(odd){
+    @apply bg-gray-200;
+}
+
+.markdown-container table tr:nth-child(even){
+    @apply bg-gray-100;
+}
+
+.markdown-container table thead tr:nth-child(1){
+    @apply bg-gray-300;
+}
+
+.markdown-container input[type="checkbox"], .markdown-container input[type="checkbox"]:checked, .markdown-container input[type="checkbox"]:disabled, .markdown-container input[type="checkbox"]:disabled:checked{
+    @apply text-blue-500 accent-blue-500;
+}
+
+.markdown-container h1, .markdown-container h2 {
+    @apply pb-1 border-b border-gray-300;
+}
+
+.hljs{display:block;overflow-x:auto;padding:.5em;color:#333;background:#f8f8f8}.hljs-comment,.hljs-quote{color:#998;font-style:italic}.hljs-keyword,.hljs-selector-tag,.hljs-subst{color:#333;font-weight:700}.hljs-literal,.hljs-number,.hljs-tag .hljs-attr,.hljs-template-variable,.hljs-variable{color:teal}.hljs-doctag,.hljs-string{color:#d14}.hljs-section,.hljs-selector-id,.hljs-title{color:#900;font-weight:700}.hljs-subst{font-weight:400}.hljs-class .hljs-title,.hljs-type{color:#458;font-weight:700}.hljs-attribute,.hljs-name,.hljs-tag{color:navy;font-weight:400}.hljs-link,.hljs-regexp{color:#009926}.hljs-bullet,.hljs-symbol{color:#990073}.hljs-built_in,.hljs-builtin-name{color:#0086b3}.hljs-meta{color:#999;font-weight:700}.hljs-deletion{background:#fdd}.hljs-addition{background:#dfd}.hljs-emphasis{font-style:italic}.hljs-strong{font-weight:700}
