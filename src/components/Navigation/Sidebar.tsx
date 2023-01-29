@@ -3,6 +3,7 @@ import { AnimatePresence, motion } from "framer-motion"
 import { useSidebarStore } from "../../state"
 import { HiMoon, HiSun, HiHome, HiEnvelope, HiMagnifyingGlass, HiChevronLeft, HiChevronRight } from 'react-icons/hi2';
 import { BsFileTextFill } from "react-icons/bs"
+import { SiJsonwebtokens } from "react-icons/si"
 import { themeChange } from "theme-change";
 import Link from "next/link";
 import { useRouter } from "next/router";
@@ -37,6 +38,11 @@ const Sidebar:FC = () => {
             path: "/generators/random-string",
             icon: <BsFileTextFill />,
             label: "Random String"
+        },
+        {
+            path: "/others/jwt-debugger",
+            icon: <SiJsonwebtokens />,
+            label: "JWT Debugger"
         }
     ]
 
