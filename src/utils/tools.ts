@@ -13,6 +13,13 @@ const tools = [
         link: "random-string",
         id: "random-string",
     },
+    {
+        name: "Markdown Editor",
+        description: "Write and preview Markdown documents.",
+        category: "others",
+        link: "markdown-editor",
+        id: "markdown-editor",
+    }
   ]
 
 export default tools
