@@ -2,7 +2,7 @@ import { type FC , useEffect } from "react"
 import { AnimatePresence, motion } from "framer-motion"
 import { useSidebarStore } from "../../state"
 import { HiMoon, HiSun, HiHome, HiEnvelope, HiMagnifyingGlass, HiChevronLeft, HiChevronRight } from 'react-icons/hi2';
-import { BsFileTextFill } from "react-icons/bs"
+import { BsFileTextFill, BsMarkdownFill } from "react-icons/bs"
 import { themeChange } from "theme-change";
 import Link from "next/link";
 import { useRouter } from "next/router";
@@ -37,6 +37,11 @@ const Sidebar:FC = () => {
             path: "/generators/random-string",
             icon: <BsFileTextFill />,
             label: "Random String"
+        },
+        {
+            path: "/others/markdown-editor",
+            icon: <BsMarkdownFill />,
+            label: "Markdown Editor"
         }
     ]
 
